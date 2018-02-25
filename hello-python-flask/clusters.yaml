@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: agonized42-hasura
+  data: null
+  kubeContext: agonized42
+  name: agonized42
