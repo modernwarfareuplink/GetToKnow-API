@@ -1,0 +1,45 @@
+Note: -DD stands for Done and tested
+
+POST:
+	-DD	 signup with emailaddress and password
+			returns message
+			
+	-DD	 (you need to login with emailaddress and password before requesting for profile because it requires sessionid obtained during login)profile with name,age,gender,location,lookingfor,about and  with emailaddress and sessionid
+			returns message
+	
+	-DD  profilechange with name,age,gender,about and  with emailaddress and sessionid
+			returns message
+	
+	-DD  profilelook with lookingfor,location and  with emailaddress and sessionid
+			returns message
+	
+	-DD	 opinion  with sessionid & emailaddress and target's emailaddress
+	
+	-DD  uploade with sessionid & emailaddress & displaypicture
+	
+	-DD  delete account with sessionid & emailaddress
+
+GET:
+	-DD	login with emailaddress and password
+			returns sessionid & emailaddress(store and send with every request)
+		
+	QUERY with sessionid & emailaddress
+	
+	-DD	getProfileInfo
+			returns all info stored
+			
+	-DD	image (emailaddress is enough)
+			returns dp if uploaded OR no image msg
+			
+	-DD	allusers
+			returns a list of user profile info
+				(to get user pic - query getPic with their emailaddress)
+				
+	-DD	matches
+			returns user info based on target's view
+
+	--	messages is pending
+	
+	-DD logout
+				
+		
