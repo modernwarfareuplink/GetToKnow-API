@@ -71,7 +71,7 @@ def deny():
 #easter egg	
 @app.route('/love')
 def love():
-	return jsonify(love="megha")
+	return jsonify(love="me")
 			
 @app.errorhandler(404)
 def err(error):
