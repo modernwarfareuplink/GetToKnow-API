@@ -1,4 +1,4 @@
-# GetToKnow-API
+# GetToKnow-API (Tinder clone API using PYTHON FLASK)
 This project has been initiated with respect to Hasura internship
 
 This API is designed to help front-end devs make a Tinder replica with custom frontend changes.
